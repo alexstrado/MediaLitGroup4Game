@@ -562,7 +562,6 @@ const scenes = {
                                         { text: 'Refuse and walk away', nextScene: "Choice8v2" }
                                 ]
                             },
-    
                             Fight1: {
                                 text: 'Round 1! The child charges at you. What\'s your move?',
                                 choices: [
@@ -571,7 +570,6 @@ const scenes = {
                                         { text: 'Block', nextScene: "Fight1" }
                                 ]
                             },
-    
                                 Fight2: {
                                     text: 'Round 2! The child takes a defensive stance. What\'s your move?',
                                     choices: [
@@ -589,13 +587,12 @@ const scenes = {
                                         { text: 'Block', nextScene: "Fight5" }
                                 ]
                             },
-    
                                 Fight4: {
                                     text: 'Round 4! You notice the child is tiring. Time to press your advantage.',
                                     choices: [
                                         { text: 'Cross', nextScene: "Fight2" },
                                         { text: 'Duck', nextScene: "Fight1" },
-                                        { text: 'Overhand', nextScene: "Fight4" }
+                                        { text: 'Overhand', nextScene: "Fight5" }
                                 ]
                             },
     
@@ -603,11 +600,10 @@ const scenes = {
                                     text: 'Round 5! The child feints to the left. How do you respond?',
                                     choices: [
                                         { text: 'Uppercut', nextScene: "Fight6" },
-                                        { text: 'Defend', nextScene: "Fight5" },
+                                        { text: 'Defend', nextScene: "Fight2" },
                                         { text: 'Jab', nextScene: "Fight4" }
                                 ]
                             },
-    
                                 Fight6: {
                                     text: 'Round 6! You see an opening but it\'s risky. What do you do?',
                                     choices: [
@@ -616,7 +612,6 @@ const scenes = {
                                         { text: 'Miss on purpose', nextScene: "JailEnding" }
                                 ]
                             },
-    
                                 Fight7: {
                                     text: 'Round 7! The child counters aggressively. Your next move?',
                                     choices: [
@@ -625,7 +620,6 @@ const scenes = {
                                         { text: 'Cross', nextScene: "Fight2" }
                                 ]
                             },
-    
                                 Fight8: {
                                     text: 'Final round! The child is barely standing. Go for the finish!',
                                     choices: [
@@ -634,14 +628,12 @@ const scenes = {
                                         { text: 'Miss intentionally', nextScene: "JailEnding" }
                                 ]
                             },
-    
                                     Victory: {
                                         text: 'Winner winner chicken dinner! You knock the child out and stand victorious. The crowd cheers (though maybe they shouldn’t).',
                                         choices: [
                                                 { text: 'Celebrate your victory', nextScene: "start" }
                                 ]
                             },
-    
                                     JailEnding: {
                                         text: 'You lose control or make a misstep. The fight ends with you being arrested and sent to jail. Not your proudest moment.',
                                         choices: [
