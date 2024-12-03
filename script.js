@@ -538,7 +538,7 @@ const scenes = {
                                     ]
                                 },
                                         Choice5v4_4: {
-                                            text: "You successfully did the worm! not only did you beat your friends but you also successfully grabbed the residents attention",
+                                            text: "You successfully did the griddy! not only did you beat your friends but you also successfully grabbed the residents attention",
                                             video: 'images/Worm.mp4',
                                             choices: [
                                                 { text: 'Explain to the residents about your idea', nextScene: 'Choice6'},
