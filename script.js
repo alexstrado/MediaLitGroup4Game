@@ -13,7 +13,7 @@ const scenes = {
     },
         start1: {
             text: "There is a student who lives in Beverly Hills in Cebu. He has a prosperous and high quality of life where he continues to keep learning more about the world. Currently, he is studying as a Senior High School student where he is close to learning enough to adapt to the real world as he enters college in the near future.",
-            background: 'images/Cuh.webp',
+            background: 'images/Cuh.jpg',
             choices: [
                 { text: 'Continue...', nextScene: 'A1' }
             ]
