@@ -9,7 +9,6 @@ const scenes = {
         background: 'images/Cuh.webp',
         choices: [
             { text: 'Yurrr', nextScene: 'start1' },
-            {text: 'skip', nextScene: 'Choice11'}
         ]
     },
         start1: {
