@@ -6,7 +6,7 @@ let currentScene = 'start';
 const scenes = {
     start: {
         text: "Would you like to start?",
-        background: 'images/Cuh.webp',
+        background: 'images/Cuh.jpg',
         choices: [
             { text: 'Yurrr', nextScene: 'start1' },
         ]
